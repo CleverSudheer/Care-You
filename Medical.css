@@ -1126,33 +1126,136 @@ a {
 
 
 .signuphead {
-    background-color: thistle;
-    margin-top: 10px;
-    text-align: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 900px;
+    margin-right: 100px;
+    height: 730px;
+    border-radius: 0 1.5rem 0 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.1rem;
+    box-shadow: 0px 1px 0px 1px;
 
+
+}
+
+.signuphead h1 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.signupname {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.signupname input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 350px;
+    height: 30px;
 }
 
 
 .signupmail {
     text-align: left;
     margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 30px;
 }
 
 .signupmail input {
     margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 10px;
+    width: 350px;
+    height: 30px;
 }
 
 
 .signupnumber {
     text-align: left;
     margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.signupnumber label {
+    margin-right: 220px;
+}
+
+.signupnumber select {
+    width: 70px;
+    height: 33px;
+    font-size: 12px;
 }
 
 .signupnumber input {
     margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 10px;
+    width: 280px;
+    height: 30px;
 }
 
+
+.signuppassword {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.signuppassword input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.signuphead h6 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.signuphead i {
+    margin-right: 5px;
+}
+
+.signuphead p {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.verifymobilenumber {
+    background-color: thistle;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.signuphead h5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signuphead h5 a {
+    color: lightblue;
+    margin-left: 5px;
+
+}
