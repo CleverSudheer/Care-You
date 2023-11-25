@@ -5,25 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Medical.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
 </head>
-<body>
+<body bgcolor="whitesmoke">
     <div class="signuphead">
+        <img src="/Users/radasudheer/Downloads/logo.png" alt="care you logo" width="170" height="70">
         <h1>Get your FREE account</h1>
         <div class="signupname">
             <label for="Name" >Your name</label>
-            <input type="text" name="name" id="name" placeholder="First and Last name">
+            <input type="text" name="name" id="name" placeholder="Full Name">
         </div>
 
         <div class="signupnumber">
             <label for="Number">Mobile number</label>
+            <select name="countryCode" id="">
+                <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
+                <option data-countryCode="US" value="1">USA (+1)</option>
+                <option data-countryCode="IN" value="91">IN  +91</option>
+            </select>
             <input type="tel" name="number" id="number" placeholder="Phone number">
         </div>
 
         <div class="signupmail">
             <label for="mail">Email (optional)</label>
-            <input type="mail" name="mail" id="mail">
+            <input type="mail" name="mail" id="mail" placeholder="example@gmail.com">
         </div>
+
+        <div class="signuppassword">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" placeholder="At least 6 characters">
+        </div>
+        
+        <h6><i class="fa-solid fa-info" style="color: red;"></i>Password must be atleast 6 characters</h6>
+
+        <p>To verify your number, we will send you a text<br> message with a temporary code. Message and data<br> rates may apply.</p>
+
+        <div class="verifymobilenumber">
+            <a href="file:///Users/radasudheer/Documents/MedicalWebsite/Login.html">Verify mobile number</a>
+        </div>
+        <h5>Already have an account <a href="file:///Users/radasudheer/Documents/MedicalWebsite/Login.html">Sign in ‣</a></h5>
     </div>
 </body>
 
