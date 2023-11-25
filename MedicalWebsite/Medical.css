@@ -1,0 +1,1154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.top {
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    font-size: 16px;
+    height: 10vh;
+    background: white;
+    box-shadow: 1px 5px 13px rgba(0,0,0,0.2);
+    padding-left: 80px;
+    position: fixed;
+    width: 95%;
+}
+.navbar {
+    margin: auto;
+    padding-left: 50px;
+    background: white;
+    
+    
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-link,.drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: whitesmoke;
+    color: black;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    font-size: 13px;
+    display: none;
+}
+.nav-link:hover {
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.button {
+    position: relative;
+    margin-top: 19px;
+    border: 1px solid white;
+    margin-right: 30px;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 90px;
+    background: thistle;
+    color: white;
+}
+
+
+
+.contact:hover .drop-down {
+    display: block;
+}
+.contact .dropdown-icon {
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+.contact:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+.drop-down li:hover {
+    background: thistle;
+    color:black;
+    border-radius: 0.5rem;
+}
+.contact{
+    padding-top: 5px;
+}
+
+.login {
+    position: relative;
+    margin-top: 29px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 70px;
+    color: thistle;
+}
+
+.login:hover {
+    color: skyblue;
+
+}
+
+.contact:hover {
+    color: slategrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.appointment:hover {
+    color: slategrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.enterprise:hover {
+    color: slategrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.pricing:hover {
+    color: slategrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.product:hover {
+    color: slategrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.pricehead {
+    text-align: center;
+    padding-top: 180px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.datebill:hover {
+    color: thistle;
+}
+
+.datebill {
+    padding-top: 0px;
+    text-align: center;
+    outline: 2px solid white;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 30px;
+    background-color: slategrey;
+    color: white;
+}
+.pricecontainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pricenavbar {
+    margin-right: 30px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem;
+    margin-left: 25px;
+    background-color: white;
+    outline: solid black;
+    margin-bottom: 25px;
+    transform: 1s;
+}
+
+.pricenavbar:hover{
+    background-color: thistle;
+    transform:scale(1.1);
+}
+
+.pricenavbar2 {
+    margin-right: 30px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem;
+    background-color: white;
+    outline: solid black;
+    margin-bottom: 25px;
+    transform: 1s;
+}
+
+.pricenavbar2:hover{
+    background-color: thistle ;
+    transform:scale(1.1);
+}
+
+.pricecontainer .pricenavbar h2{
+    margin-bottom: -10px;
+}
+
+.pricecontainer .pricenavbar p{
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.pricecontainer .pricenavbar h1{
+    margin-bottom: 25px;
+}
+
+.pricecontainer .pricenavbar a {
+    margin-bottom: 10px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    background-color: silver;
+}
+
+.pricecontainer .pricenavbar ul {
+    list-style: none;
+}
+
+.pricecontainer .pricenavbar h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pricecontainer .pricenavbar li {
+    line-height: 3;
+    
+}
+
+.pricecontainer .pricenavbar li i {
+    padding-right: 5px;
+    
+}
+
+.pricecontainer .pricenavbar2 h2{
+    margin-bottom: -10px;
+}
+
+.pricecontainer .pricenavbar2 p{
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.pricecontainer .pricenavbar2 h1{
+    margin-bottom: 25px;
+}
+
+.pricecontainer .pricenavbar2 h1 span{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.pricecontainer .pricenavbar2 a {
+    margin-bottom: 10px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    background-color: silver;
+}
+
+.pricecontainer .pricenavbar2 ul {
+    list-style: none;
+}
+
+.pricecontainer .pricenavbar2 h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pricecontainer .pricenavbar2 li {
+    line-height: 3;
+    
+}
+
+.pricecontainer .pricenavbar2 li i {
+    padding-right: 5px;
+    
+}
+
+.pricenavbar3 {
+    margin-right: 30px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem;
+    background-color: white;
+    outline: solid black;
+    margin-bottom: 25px;
+    transform: 1s;
+}
+
+.pricenavbar3:hover{
+    background-color: thistle;
+    transform:scale(1.1);
+}
+
+.pricecontainer .pricenavbar3 h2{
+    margin-bottom: -10px;
+}
+
+.pricecontainer .pricenavbar3 h2 span{
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding-right: 5px;
+    margin-left: 8px;
+    background-color: lightsteelblue;
+}
+
+.pricecontainer .pricenavbar3 p{
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.pricecontainer .pricenavbar3 h1{
+    margin-bottom: 25px;
+}
+
+.pricecontainer .pricenavbar3 h1 span{
+    font-size: 15px;
+    padding-left: 10px; 
+}
+
+.pricecontainer .pricenavbar3 a {
+    margin-bottom: 10px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    background-color: silver;
+}
+
+.pricecontainer .pricenavbar3 ul {
+    list-style: none;
+}
+
+.pricecontainer .pricenavbar3 h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pricecontainer .pricenavbar3 li {
+    line-height: 3;
+    
+}
+
+.pricecontainer .pricenavbar3 li i {
+    padding-right: 5px;
+    
+}
+
+.pricenavbar4 {
+    margin-right: 30px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem;
+    background-color: white;
+    outline: solid black;
+    margin-bottom: 25px;
+    transform: 1s;
+}
+
+.pricenavbar4:hover{
+    background-color: thistle;
+    transform:scale(1.1);
+}
+
+.pricecontainer .pricenavbar4 h2{
+    margin-bottom: -10px;
+}
+
+.pricecontainer .pricenavbar4 p{
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+
+.pricecontainer .pricenavbar4 h1{
+    margin-bottom: 25px;
+}
+
+.pricecontainer .pricenavbar4 a {
+    margin-bottom: 10px;
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s;
+    background-color: silver;
+}
+
+.pricecontainer .pricenavbar4 a:hover{
+    background-color: skyblue;
+}
+
+.pricecontainer .pricenavbar4 ul {
+    list-style: none;
+}
+
+.pricecontainer .pricenavbar4 h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pricecontainer .pricenavbar4 li {
+    line-height: 3;
+    
+}
+
+.pricecontainer .pricenavbar4 li i {
+    padding-right: 5px;
+    
+}
+
+.book {
+    padding-top: 15%;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 700px;
+
+}
+.book p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homecontact {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    margin-right: 550px;
+    background-color: thistle;
+}
+
+.webdatacount {
+    background-color: #ffffff;
+    margin-top: 150px;
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.datacountone {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 25%;
+}
+
+.datacountone i{
+    font-size: 60px;
+    margin-top: 20px; 
+}
+
+.datacountone h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+.datacountone h6 {
+    margin-top: 10px;
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.datacounttwo {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 30px;
+    margin-right:70px;
+    width: 25%;
+}
+
+.datacounttwo i{
+    font-size: 60px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.datacounttwo h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+.datacounttwo h6 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.datacountthree {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 30px;
+    margin-right:70px;
+    width: 25%;
+}
+
+.datacountthree i{
+    font-size: 60px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.datacountthree h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+.datacountthree h6 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.datacountfour {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 30px;
+    margin-right:70px;
+    width: 25%;
+    
+}
+
+.datacountfour i{
+    font-size: 60px;
+    margin-top: 20px; 
+}
+
+.datacountfour h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+.datacountfour h6 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.ourservices {
+    background-color: #ffffff;
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-left: 100px;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.ourservicesheader {
+    text-align: center;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-top: 120px;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+
+.serviceone {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left:20px;
+    margin-right:70px;
+    width: 25%;
+    
+}
+
+.serviceone i{
+    font-size: 120px;
+    margin-top: 20px; 
+}
+
+.serviceone h3 {
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.serviceone p {
+    margin-top: 10px;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.servicetwo {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 20px;
+    margin-right:70px;
+    width: 25%;
+    
+}
+
+.servicetwo i{
+    font-size: 120px;
+    margin-top: 20px; 
+}
+
+.servicetwo h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.servicetwo p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.servicethree {
+    border-radius: 1.5rem;
+    outline:solid thistle;
+    outline-width: 0.4rem;
+    margin-left: 20px;
+    margin-right:20px;
+    width: 25%;
+    
+}
+
+.servicethree i{
+    font-size: 120px;
+    margin-top: 20px; 
+}
+
+.servicethree h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.servicethree p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.ourservices-second {
+    background-color: #ffffff;
+    margin-top: -50px;
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 0  0 1.5rem 1.5rem;
+    padding-left: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.aboutushead {
+    text-align: center;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-top: 120px;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.aboutuscontent {
+    padding-top: 70px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 700px;
+    background-color: white;
+    margin-left: 25px;
+    margin-right:25px;
+    padding-bottom: 50px;
+}
+.aboutuscontent p {
+    margin-top: 25px;
+}
+
+.aboutuslearnmore {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-right: 500px;
+    padding-right: 10px;
+    background-color: thistle;
+}
+
+
+
+
+
+
+.aboutushead1 {
+    text-align: center;
+    background-color: white;
+    padding-top:160px;
+    padding-bottom: 30px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.aboutuscontent1 {
+    padding-top: 70px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 700px;
+    background-color: white;
+    margin-left: 25px;
+    margin-right:25px;
+    padding-bottom: 50px;
+}
+.aboutuscontent1 p {
+    margin-top: 25px;
+}
+
+.aboutuslearnmore1 {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-right: 500px;
+    padding-right: 10px;
+    background-color: thistle;
+}
+
+
+
+.booknowhead {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.booknowhead h1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.booknow {
+    background-color: thistle;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 150px;
+}
+
+.booknowsubmit input {
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: skyblue;
+}
+
+.booknow h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.booknowfname {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowfname input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+.booknowlname {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowlname input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknownum {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknownum input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknowmail {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowmail input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknowdatetimehead {
+    display: flex;
+}
+
+
+.booknowdate label {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowdate {
+    margin-bottom: 20px;
+}
+
+.booknowdate input {
+    height: 20px;
+}
+
+
+.booknowtime {
+    margin-bottom: 20px;
+
+}
+
+.booknowtime label {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.booknowcountry {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowcountry select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 515px;
+    height: 45px;
+}
+
+.booknowsubject {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowsubject textarea {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 505px;
+    height: 45px;
+}
+
+.booknowsubmit {
+    margin-bottom: 40px;
+}
+
+.booknowsubmit input {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.booknowhead1 {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.booknowhead1 h1 {
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.booknow1 {
+    background-color: thistle;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 150px;
+}
+
+.booknowsubmit1 input {
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: skyblue;
+}
+
+.booknow1 h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.booknowfname1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowfname1 input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+.booknowlname1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowlname1 input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknownum1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknownum1 input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknowmail1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowmail1 input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+
+.booknowdatetimehead1 {
+    display: flex;
+}
+
+
+.booknowdate1 label {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowdate1 {
+    margin-bottom: 20px;
+}
+
+.booknowdate1 input {
+    height: 20px;
+}
+
+
+.booknowtime1 {
+    margin-bottom: 20px;
+
+}
+
+.booknowtime1 label {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.booknowcountry1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowcountry1 select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 515px;
+    height: 45px;
+}
+
+.booknowsubject1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.booknowsubject1 textarea {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 505px;
+    height: 45px;
+}
+
+.booknowsubmit1 {
+    margin-bottom: 40px;
+}
+
+.booknowsubmit1 input {
+    margin-bottom: 20px;
+}
+
+.clientreviewhead {
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.signuphead {
+    background-color: thistle;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+
+.signupmail {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.signupmail input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.signupnumber {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.signupnumber input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
