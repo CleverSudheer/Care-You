@@ -10,6 +10,14 @@
     z-index: 2;
 }
 
+.top1 {
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: -11.8%;
+    z-index: 2;
+}
+
 
 .container {
     display: flex;
@@ -1127,7 +1135,7 @@ a {
 
 .signuphead {
     background-color: white;
-    margin-top: 30px;
+    margin-top: 170px;
     margin-bottom: 30px;
     text-align: center;
     margin-left: 900px;
