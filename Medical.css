@@ -10,21 +10,40 @@
     z-index: 2;
 }
 
+
+
 .top1 {
     position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    
+    z-index: 2;
+}
+.top2 {
+    position:fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    
+    z-index: 2;
+}
+
+.top3 {
+    position:fixed;
     background-color: whitesmoke;
     width: 100%;
     margin-top: -11.8%;
     z-index: 2;
 }
 
-.top2 {
-    position: fixed;
+.top4 {
+    position:fixed;
     background-color: whitesmoke;
     width: 100%;
-    margin-top: -11.8%;
+    margin-top: -8.5%;
     z-index: 2;
 }
+
+
 
 .container {
     display: flex;
@@ -34,7 +53,7 @@
     box-shadow: 1px 5px 13px rgba(0,0,0,0.2);
     padding-left: 80px;
     position: fixed;
-    width: 95%;
+    width: 100%;
 }
 .navbar {
     margin: auto;
@@ -181,6 +200,7 @@ a {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    
 }
 .pricenavbar {
     margin-right: 30px;
@@ -473,12 +493,21 @@ a {
 }
 
 .book {
+    display: flex;
     padding-top: 15%;
     font-size: 20px;
     text-align: left;
-    padding-left: 700px;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 1.5rem;
 
 }
+
+.hometopimg {
+    margin-left: 25px;
+}
+
 .book p {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -490,7 +519,8 @@ a {
     text-align: left;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-right: 550px;
     background-color: thistle;
 }
@@ -758,11 +788,22 @@ a {
     margin-right:25px;
 }
 
+.homeaboutus {
+    display: flex;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.homeaboutusimg {
+    margin-left: 25px;
+}
+
 .aboutuscontent {
     padding-top: 70px;
     font-size: 20px;
     text-align: left;
-    padding-left: 700px;
+    padding-left: 20px;
     background-color: white;
     margin-left: 25px;
     margin-right:25px;
@@ -804,7 +845,7 @@ a {
     padding-top: 70px;
     font-size: 20px;
     text-align: left;
-    padding-left: 700px;
+    padding-left: 20px;
     background-color: white;
     margin-left: 25px;
     margin-right:25px;
@@ -817,12 +858,12 @@ a {
 .aboutuslearnmore1 {
     background-color: #ffffff;
     border-radius: 1.5rem;
-    text-align: right;
+    text-align: left;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 20px;
     margin-top: 25px;
-    margin-right: 500px;
+    margin-right: 600px;
     padding-right: 10px;
     background-color: thistle;
 }
@@ -830,8 +871,16 @@ a {
 
 
 .booknowhead {
-    background-color: whitesmoke;
+    display: flex;
+    background-color: white;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.homebookingimg {
+    margin-left: 25px;
 }
 
 .booknowhead h1 {
@@ -842,7 +891,7 @@ a {
 .booknow {
     background-color: thistle;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 20px;
     margin-right: 150px;
 }
 
@@ -914,6 +963,10 @@ a {
 }
 
 
+.booknowmail label {
+    margin-right: 10px;
+}
+
 .booknowdatetimehead {
     display: flex;
 }
@@ -983,8 +1036,16 @@ a {
 
 
 .booknowhead1 {
-    background-color: whitesmoke;
+    display: flex;
+    background-color: white;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 1.5rem;
+}
+
+.homebookingimg {
+    margin-left: 25px;
 }
 
 .booknowhead1 h1 {
@@ -995,8 +1056,10 @@ a {
 .booknow1 {
     background-color: thistle;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 20px;
     margin-right: 150px;
+    margin-bottom: 30px;
+    border-radius: 1.5rem;
 }
 
 .booknowsubmit1 input {
@@ -1130,13 +1193,13 @@ a {
     margin-bottom: 20px;
 }
 
-.clientreviewhead {
+/*.clientreviewhead {
     text-align: center;
     background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 50px;
-}
+}*/
 
 
 
@@ -1145,14 +1208,25 @@ a {
     margin-top: 170px;
     margin-bottom: 30px;
     text-align: center;
-    margin-left: 900px;
+    margin-left: 20px;
     margin-right: 100px;
     height: 730px;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     outline:solid thistle;
     outline-width: 0.1rem;
+}
 
+.signupside {
+    display: flex;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+.signupimg {
+    padding-top: 100px;
+    margin-left: 25px;
 }
 
 .signuphead h1 {
@@ -1274,15 +1348,25 @@ a {
 
 }
 
+.logintopside {
+    display: flex;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
 
 .signinhead {
     background-color: white;
-    margin-top: 170px;
+    margin-top: 160px;
     margin-bottom: 30px;
     text-align: center;
-    margin-left: 900px;
+    margin-left: 30px;
     margin-right: 100px;
-    height: 500px;
+    height: 600px;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     outline:solid thistle;
     outline-width: 0.1rem;
@@ -1362,7 +1446,7 @@ a {
 }
 
 .signinpassword a {
-    margin-left: 190px;
+    margin-left: 150px;
     color: blue;
 }
 
@@ -1412,6 +1496,7 @@ a {
 }
 
 
+
 .signinhead h5 a {
     color: blue;
     margin-left: 5px;
@@ -1423,8 +1508,8 @@ a {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    margin-left: 900px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
     height: 30px;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     outline:solid thistle;
@@ -1437,15 +1522,242 @@ a {
     padding-top: 7px;
 }
 
-.h4 {
-    text-align: right;
-    margin-top: 10px;
-    color: tan;
-}
+
 
 
 .subsigninhead h5 a {
     color: blue;
     margin-left: 5px;
+    padding-right: 20px;
+    
 
+}
+
+.contactushead img {
+    margin-bottom: 10px;
+}
+
+
+.contactushead {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 1.5rem;
+    height: 550px;
+    width: 400px;
+}
+
+.contactus label {
+    text-align: left;
+    margin-right: 260px;
+    margin-left: 10px;
+}
+
+.contactus input {
+    margin-top: 10px;
+    margin-left: 20px;
+    height:30px;
+    width: 350px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+
+}
+
+.contactus1 label {
+    text-align: left;
+    margin-right: 260px;
+    margin-left: 10px;
+}
+
+.contactus1 input {
+    margin-top: 10px;
+    margin-left: 20px;
+    height:30px;
+    width: 350px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+
+}
+
+.contactus2 label {
+    text-align: left;
+    margin-right: 260px;
+    margin-left: -30px;
+}
+
+.contactus2 input {
+    margin-top: 10px;
+    margin-left: 20px;
+    height:30px;
+    width: 350px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+
+}
+
+.contactus3 label {
+    text-align: left;
+    margin-right: 60px;
+    margin-left: -80px;
+}
+
+.contactus3 textarea {
+    margin-top: 10px;
+    margin-left: 20px;
+    height:30px;
+    width: 350px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+
+}
+
+.contactussubmit {
+    background-color: thistle;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.sidebyside {
+    margin-top: 170px;
+    display:flex;
+}
+
+.contactustitle {
+    margin-top: 10px;
+    margin-left: 40px;
+    
+    width: 800px;
+    
+}
+
+.contactustitle h3 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.contactustitle h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.aboutuscontent1 h2 {
+    margin-top: 30px;
+    
+
+}
+
+.aboutusside {
+    display: flex;
+    
+}
+
+.aboutusimg {
+    margin-top: 0px;
+}
+
+/*-------footer------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+
+/*Aquí debajo va el FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+    
+    /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: thistle;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
 }
